@@ -32,6 +32,23 @@
   * [io.js](CHANGELOG_IOJS.md)
   * [Archive](CHANGELOG_ARCHIVE.md)
 
+<a id="15.0.1"></a>
+## 2020-10-21, Version 15.0.1 (Current), @BethGriggs
+
+### Notable changes
+
+* **crypto**: fix regression on randomFillSync (James M Snell) [#35723](https://github.com/nodejs/node/pull/35723)
+  * This fixes issue https://github.com/nodejs/node/issues/35722.
+* **doc**: add release key for Danielle Adams (Danielle Adams) [#35545](https://github.com/nodejs/node/pull/35545)
+
+### Commits
+
+* [[`f5acc2d030`](https://github.com/nodejs/node/commit/f5acc2d030)] - **crypto**: fix regression on randomFillSync (James M Snell) [#35723](https://github.com/nodejs/node/pull/35723)
+* [[`1efa87082b`](https://github.com/nodejs/node/commit/1efa87082b)] - **doc**: add release key for Danielle Adams (Danielle Adams) [#35545](https://github.com/nodejs/node/pull/35545)
+* [[`6e91d644e3`](https://github.com/nodejs/node/commit/6e91d644e3)] - **doc**: use kbd element in os doc (Rich Trott) [#35656](https://github.com/nodejs/node/pull/35656)
+* [[`5a48a7b6f8`](https://github.com/nodejs/node/commit/5a48a7b6f8)] - **doc**: add a statement in the documentation. (Pooja D.P) [#35585](https://github.com/nodejs/node/pull/35585)
+* [[`d54edece99`](https://github.com/nodejs/node/commit/d54edece99)] - **test**: refactor test-crypto-pbkdf2 (Tobias Nießen) [#35693](https://github.com/nodejs/node/pull/35693)
+
 <a id="15.0.0"></a>
 ## 2020-10-20, Version 15.0.0 (Current), @BethGriggs
 
